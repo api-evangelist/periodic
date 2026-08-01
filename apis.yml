@@ -1,8 +1,24 @@
 aid: periodic
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/periodic.png
 name: Periodic
-description: 'Periodic is a company surfaced as a portfolio company of crv, felicis and added to the API
-  Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Periodic (Periodic Labs) is an AI research company building "AI scientists" paired with
+  autonomous laboratories to accelerate discovery in the physical sciences, with an early focus on materials
+  science and higher-temperature superconductors. Their systems hypothesize, run physical experiments, and
+  learn from the results, and they partner with industry to optimize experimental processes. Surfaced as a
+  portfolio company of CRV and Felicis, the company is at an early stage and does not currently publish a
+  public API, developer documentation, or developer platform. This profile records that honest result; it
+  is not penalized for having no API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/periodic/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Unknown
+- Artificial Intelligence
+- AI Research
+- Materials Science
+- Autonomous Labs
+- Deep Tech
+- Superconductors
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +47,10 @@ maintainers:
 common:
 - type: Website
   url: https://periodic.com/
+- type: Support
+  url: mailto:contact@periodic.com
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
